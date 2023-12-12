@@ -72,10 +72,12 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 12px 0px;
 }
 
 ul {
     padding-left: 0;
+    margin: 12px;
 }
 
 ul>li {
@@ -89,6 +91,7 @@ ul>li {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 16px;
 }
 
 .left {
